@@ -1,0 +1,1060 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		572F0C359439AA75ED03C811 /* libPods-Jiujiu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAA28E1557796D292C08E80 /* libPods-Jiujiu.a */; };
+		5BA3EE567B79358562382AC0 /* libPods-JiujiuTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5EF4596AE410F36028A904A /* libPods-JiujiuTests.a */; };
+		63FF5E77602A505EE0479797 /* libPods-JiujiuUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 674949B40B8382317EF27306 /* libPods-JiujiuUITests.a */; };
+		643348C921AE4093008B2885 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 643348C821AE4093008B2885 /* AppDelegate.m */; };
+		643348CC21AE4093008B2885 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 643348CB21AE4093008B2885 /* ViewController.m */; };
+		643348CF21AE4093008B2885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 643348CD21AE4093008B2885 /* Main.storyboard */; };
+		643348D221AE4093008B2885 /* Jiujiu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 643348D021AE4093008B2885 /* Jiujiu.xcdatamodeld */; };
+		643348D421AE4095008B2885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 643348D321AE4095008B2885 /* Assets.xcassets */; };
+		643348D721AE4095008B2885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 643348D521AE4095008B2885 /* LaunchScreen.storyboard */; };
+		643348DA21AE4095008B2885 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 643348D921AE4095008B2885 /* main.m */; };
+		643348E421AE4095008B2885 /* JiujiuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 643348E321AE4095008B2885 /* JiujiuTests.m */; };
+		643348EF21AE4095008B2885 /* JiujiuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 643348EE21AE4095008B2885 /* JiujiuUITests.m */; };
+		6433490A21AE6B77008B2885 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6433490921AE6B77008B2885 /* BaseViewController.m */; };
+		6433490D21AE6B8E008B2885 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6433490C21AE6B8E008B2885 /* BaseTableViewController.m */; };
+		6433492021AE6CE2008B2885 /* LabbyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6433491E21AE6CE2008B2885 /* LabbyViewController.m */; };
+		6433492121AE6CE2008B2885 /* LabbyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6433491F21AE6CE2008B2885 /* LabbyViewController.xib */; };
+		6433492521AE6CF7008B2885 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6433492321AE6CF7008B2885 /* ActivityViewController.m */; };
+		6433492621AE6CF7008B2885 /* ActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6433492421AE6CF7008B2885 /* ActivityViewController.xib */; };
+		6433492A21AE6D24008B2885 /* RankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6433492821AE6D24008B2885 /* RankViewController.m */; };
+		6433492B21AE6D24008B2885 /* RankViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6433492921AE6D24008B2885 /* RankViewController.xib */; };
+		6433492F21AE6D38008B2885 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6433492D21AE6D38008B2885 /* MineViewController.m */; };
+		6433493021AE6D38008B2885 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6433492E21AE6D38008B2885 /* MineViewController.xib */; };
+		6433493421AE6D4B008B2885 /* LikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6433493221AE6D4B008B2885 /* LikeViewController.m */; };
+		6433493521AE6D4B008B2885 /* LikeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6433493321AE6D4B008B2885 /* LikeViewController.xib */; };
+		6433494121AE7167008B2885 /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6433494021AE7167008B2885 /* BaseTabBarViewController.m */; };
+		6433494421AE71F2008B2885 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6433494321AE71F2008B2885 /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		643348E021AE4095008B2885 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 643348BC21AE4093008B2885 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 643348C321AE4093008B2885;
+			remoteInfo = Jiujiu;
+		};
+		643348EB21AE4095008B2885 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 643348BC21AE4093008B2885 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 643348C321AE4093008B2885;
+			remoteInfo = Jiujiu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25896E6F52BD02C0F44B69BA /* Pods-JiujiuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiujiuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JiujiuTests/Pods-JiujiuTests.release.xcconfig"; sourceTree = "<group>"; };
+		5C12D300D793DE39E940A28C /* Pods-Jiujiu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jiujiu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jiujiu/Pods-Jiujiu.debug.xcconfig"; sourceTree = "<group>"; };
+		643348C421AE4093008B2885 /* Jiujiu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jiujiu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		643348C721AE4093008B2885 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		643348C821AE4093008B2885 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		643348CA21AE4093008B2885 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		643348CB21AE4093008B2885 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		643348CE21AE4093008B2885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		643348D121AE4093008B2885 /* Jiujiu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jiujiu.xcdatamodel; sourceTree = "<group>"; };
+		643348D321AE4095008B2885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		643348D621AE4095008B2885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		643348D821AE4095008B2885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		643348D921AE4095008B2885 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		643348DF21AE4095008B2885 /* JiujiuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiujiuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		643348E321AE4095008B2885 /* JiujiuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiujiuTests.m; sourceTree = "<group>"; };
+		643348E521AE4095008B2885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		643348EA21AE4095008B2885 /* JiujiuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiujiuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		643348EE21AE4095008B2885 /* JiujiuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiujiuUITests.m; sourceTree = "<group>"; };
+		643348F021AE4095008B2885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6433490821AE6B77008B2885 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		6433490921AE6B77008B2885 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		6433490B21AE6B8E008B2885 /* BaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		6433490C21AE6B8E008B2885 /* BaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		6433491D21AE6CE2008B2885 /* LabbyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabbyViewController.h; sourceTree = "<group>"; };
+		6433491E21AE6CE2008B2885 /* LabbyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabbyViewController.m; sourceTree = "<group>"; };
+		6433491F21AE6CE2008B2885 /* LabbyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabbyViewController.xib; sourceTree = "<group>"; };
+		6433492221AE6CF7008B2885 /* ActivityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		6433492321AE6CF7008B2885 /* ActivityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
+		6433492421AE6CF7008B2885 /* ActivityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityViewController.xib; sourceTree = "<group>"; };
+		6433492721AE6D24008B2885 /* RankViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RankViewController.h; sourceTree = "<group>"; };
+		6433492821AE6D24008B2885 /* RankViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RankViewController.m; sourceTree = "<group>"; };
+		6433492921AE6D24008B2885 /* RankViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RankViewController.xib; sourceTree = "<group>"; };
+		6433492C21AE6D38008B2885 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		6433492D21AE6D38008B2885 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		6433492E21AE6D38008B2885 /* MineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
+		6433493121AE6D4B008B2885 /* LikeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LikeViewController.h; sourceTree = "<group>"; };
+		6433493221AE6D4B008B2885 /* LikeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikeViewController.m; sourceTree = "<group>"; };
+		6433493321AE6D4B008B2885 /* LikeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LikeViewController.xib; sourceTree = "<group>"; };
+		6433493721AE6F5E008B2885 /* URLMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLMacros.h; sourceTree = "<group>"; };
+		6433493821AE6F88008B2885 /* FontAndColorMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontAndColorMacros.h; sourceTree = "<group>"; };
+		6433493921AE6FAD008B2885 /* UtilsMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
+		6433493A21AE6FC8008B2885 /* ThirdMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdMacros.h; sourceTree = "<group>"; };
+		6433493F21AE7167008B2885 /* BaseTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBarViewController.h; sourceTree = "<group>"; };
+		6433494021AE7167008B2885 /* BaseTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarViewController.m; sourceTree = "<group>"; };
+		6433494221AE71F2008B2885 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6433494321AE71F2008B2885 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6433494521AE73F8008B2885 /* Jiujiu.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jiujiu.pch; sourceTree = "<group>"; };
+		674949B40B8382317EF27306 /* libPods-JiujiuUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiujiuUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B1C0A757B9A80EE881A5F53 /* Pods-JiujiuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiujiuUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JiujiuUITests/Pods-JiujiuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7CAA28E1557796D292C08E80 /* libPods-Jiujiu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Jiujiu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B358ED77CBA4DC4E95AD8A2B /* Pods-Jiujiu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jiujiu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jiujiu/Pods-Jiujiu.release.xcconfig"; sourceTree = "<group>"; };
+		BAE939167304F874C127704F /* Pods-JiujiuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiujiuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JiujiuUITests/Pods-JiujiuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5EF4596AE410F36028A904A /* libPods-JiujiuTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiujiuTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8775B07A37A73E97358A94A /* Pods-JiujiuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiujiuTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JiujiuTests/Pods-JiujiuTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		643348C121AE4093008B2885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572F0C359439AA75ED03C811 /* libPods-Jiujiu.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643348DC21AE4095008B2885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA3EE567B79358562382AC0 /* libPods-JiujiuTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643348E721AE4095008B2885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FF5E77602A505EE0479797 /* libPods-JiujiuUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		416CB8EF8D9B24DCAD076FC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CAA28E1557796D292C08E80 /* libPods-Jiujiu.a */,
+				C5EF4596AE410F36028A904A /* libPods-JiujiuTests.a */,
+				674949B40B8382317EF27306 /* libPods-JiujiuUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		643348BB21AE4093008B2885 = {
+			isa = PBXGroup;
+			children = (
+				643348C621AE4093008B2885 /* Jiujiu */,
+				643348E221AE4095008B2885 /* JiujiuTests */,
+				643348ED21AE4095008B2885 /* JiujiuUITests */,
+				643348C521AE4093008B2885 /* Products */,
+				B213231343AA4CD9864A79DF /* Pods */,
+				416CB8EF8D9B24DCAD076FC0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		643348C521AE4093008B2885 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				643348C421AE4093008B2885 /* Jiujiu.app */,
+				643348DF21AE4095008B2885 /* JiujiuTests.xctest */,
+				643348EA21AE4095008B2885 /* JiujiuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		643348C621AE4093008B2885 /* Jiujiu */ = {
+			isa = PBXGroup;
+			children = (
+				6433493B21AE700A008B2885 /* 登录注册 */,
+				643348FE21AE46D6008B2885 /* 大厅 */,
+				6433490721AE46D7008B2885 /* 活动 */,
+				643348FC21AE46D6008B2885 /* 排行 */,
+				6433490421AE46D7008B2885 /* 我的 */,
+				6433490521AE46D7008B2885 /* 喜欢 */,
+				6433490221AE46D7008B2885 /* Base */,
+				6433490121AE46D7008B2885 /* Command */,
+				6433490621AE46D7008B2885 /* Dedine */,
+				6433490321AE46D7008B2885 /* Manager */,
+				643348FD21AE46D6008B2885 /* Resource */,
+				643348FF21AE46D6008B2885 /* ThridPath */,
+				6433490021AE46D7008B2885 /* Utils */,
+				643348C721AE4093008B2885 /* AppDelegate.h */,
+				643348C821AE4093008B2885 /* AppDelegate.m */,
+				643348CA21AE4093008B2885 /* ViewController.h */,
+				643348CB21AE4093008B2885 /* ViewController.m */,
+				6433494521AE73F8008B2885 /* Jiujiu.pch */,
+				643348CD21AE4093008B2885 /* Main.storyboard */,
+				643348D321AE4095008B2885 /* Assets.xcassets */,
+				643348D521AE4095008B2885 /* LaunchScreen.storyboard */,
+				643348D821AE4095008B2885 /* Info.plist */,
+				643348D921AE4095008B2885 /* main.m */,
+				643348D021AE4093008B2885 /* Jiujiu.xcdatamodeld */,
+			);
+			path = Jiujiu;
+			sourceTree = "<group>";
+		};
+		643348E221AE4095008B2885 /* JiujiuTests */ = {
+			isa = PBXGroup;
+			children = (
+				643348E321AE4095008B2885 /* JiujiuTests.m */,
+				643348E521AE4095008B2885 /* Info.plist */,
+			);
+			path = JiujiuTests;
+			sourceTree = "<group>";
+		};
+		643348ED21AE4095008B2885 /* JiujiuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				643348EE21AE4095008B2885 /* JiujiuUITests.m */,
+				643348F021AE4095008B2885 /* Info.plist */,
+			);
+			path = JiujiuUITests;
+			sourceTree = "<group>";
+		};
+		643348FC21AE46D6008B2885 /* 排行 */ = {
+			isa = PBXGroup;
+			children = (
+				6433491621AE6C3E008B2885 /* Model */,
+				6433491421AE6C3E008B2885 /* VC */,
+				6433491521AE6C3E008B2885 /* View */,
+			);
+			path = "排行";
+			sourceTree = "<group>";
+		};
+		643348FD21AE46D6008B2885 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		643348FE21AE46D6008B2885 /* 大厅 */ = {
+			isa = PBXGroup;
+			children = (
+				6433491021AE6BE3008B2885 /* Model */,
+				6433490F21AE6BE3008B2885 /* VC */,
+				6433490E21AE6BE3008B2885 /* View */,
+			);
+			path = "大厅";
+			sourceTree = "<group>";
+		};
+		643348FF21AE46D6008B2885 /* ThridPath */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThridPath;
+			sourceTree = "<group>";
+		};
+		6433490021AE46D7008B2885 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6433490121AE46D7008B2885 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		6433490221AE46D7008B2885 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6433490821AE6B77008B2885 /* BaseViewController.h */,
+				6433490921AE6B77008B2885 /* BaseViewController.m */,
+				6433490B21AE6B8E008B2885 /* BaseTableViewController.h */,
+				6433490C21AE6B8E008B2885 /* BaseTableViewController.m */,
+				6433493F21AE7167008B2885 /* BaseTabBarViewController.h */,
+				6433494021AE7167008B2885 /* BaseTabBarViewController.m */,
+				6433494221AE71F2008B2885 /* MainViewController.h */,
+				6433494321AE71F2008B2885 /* MainViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6433490321AE46D7008B2885 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		6433490421AE46D7008B2885 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				6433491921AE6C4F008B2885 /* Model */,
+				6433491821AE6C4F008B2885 /* VC */,
+				6433491721AE6C4F008B2885 /* View */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		6433490521AE46D7008B2885 /* 喜欢 */ = {
+			isa = PBXGroup;
+			children = (
+				6433491A21AE6C5E008B2885 /* Model */,
+				6433491B21AE6C5E008B2885 /* VC */,
+				6433491C21AE6C5E008B2885 /* View */,
+			);
+			path = "喜欢";
+			sourceTree = "<group>";
+		};
+		6433490621AE46D7008B2885 /* Dedine */ = {
+			isa = PBXGroup;
+			children = (
+				6433493721AE6F5E008B2885 /* URLMacros.h */,
+				6433493821AE6F88008B2885 /* FontAndColorMacros.h */,
+				6433493921AE6FAD008B2885 /* UtilsMacros.h */,
+				6433493A21AE6FC8008B2885 /* ThirdMacros.h */,
+			);
+			path = Dedine;
+			sourceTree = "<group>";
+		};
+		6433490721AE46D7008B2885 /* 活动 */ = {
+			isa = PBXGroup;
+			children = (
+				6433491121AE6BF0008B2885 /* Model */,
+				6433491221AE6BF0008B2885 /* VC */,
+				6433491321AE6BF0008B2885 /* View */,
+			);
+			path = "活动";
+			sourceTree = "<group>";
+		};
+		6433490E21AE6BE3008B2885 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6433490F21AE6BE3008B2885 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				6433491D21AE6CE2008B2885 /* LabbyViewController.h */,
+				6433491E21AE6CE2008B2885 /* LabbyViewController.m */,
+				6433491F21AE6CE2008B2885 /* LabbyViewController.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		6433491021AE6BE3008B2885 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6433491121AE6BF0008B2885 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6433491221AE6BF0008B2885 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				6433492221AE6CF7008B2885 /* ActivityViewController.h */,
+				6433492321AE6CF7008B2885 /* ActivityViewController.m */,
+				6433492421AE6CF7008B2885 /* ActivityViewController.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		6433491321AE6BF0008B2885 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6433491421AE6C3E008B2885 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				6433492721AE6D24008B2885 /* RankViewController.h */,
+				6433492821AE6D24008B2885 /* RankViewController.m */,
+				6433492921AE6D24008B2885 /* RankViewController.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		6433491521AE6C3E008B2885 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6433491621AE6C3E008B2885 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6433491721AE6C4F008B2885 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6433491821AE6C4F008B2885 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				6433492C21AE6D38008B2885 /* MineViewController.h */,
+				6433492D21AE6D38008B2885 /* MineViewController.m */,
+				6433492E21AE6D38008B2885 /* MineViewController.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		6433491921AE6C4F008B2885 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6433491A21AE6C5E008B2885 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6433491B21AE6C5E008B2885 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				6433493121AE6D4B008B2885 /* LikeViewController.h */,
+				6433493221AE6D4B008B2885 /* LikeViewController.m */,
+				6433493321AE6D4B008B2885 /* LikeViewController.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		6433491C21AE6C5E008B2885 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6433493B21AE700A008B2885 /* 登录注册 */ = {
+			isa = PBXGroup;
+			children = (
+				6433493C21AE700A008B2885 /* VC */,
+				6433493D21AE700A008B2885 /* Model */,
+				6433493E21AE700A008B2885 /* View */,
+			);
+			path = "登录注册";
+			sourceTree = "<group>";
+		};
+		6433493C21AE700A008B2885 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		6433493D21AE700A008B2885 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6433493E21AE700A008B2885 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B213231343AA4CD9864A79DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C12D300D793DE39E940A28C /* Pods-Jiujiu.debug.xcconfig */,
+				B358ED77CBA4DC4E95AD8A2B /* Pods-Jiujiu.release.xcconfig */,
+				E8775B07A37A73E97358A94A /* Pods-JiujiuTests.debug.xcconfig */,
+				25896E6F52BD02C0F44B69BA /* Pods-JiujiuTests.release.xcconfig */,
+				BAE939167304F874C127704F /* Pods-JiujiuUITests.debug.xcconfig */,
+				7B1C0A757B9A80EE881A5F53 /* Pods-JiujiuUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		643348C321AE4093008B2885 /* Jiujiu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 643348F321AE4095008B2885 /* Build configuration list for PBXNativeTarget "Jiujiu" */;
+			buildPhases = (
+				E9B9C35576AAF5CB5F1B250B /* [CP] Check Pods Manifest.lock */,
+				643348C021AE4093008B2885 /* Sources */,
+				643348C121AE4093008B2885 /* Frameworks */,
+				643348C221AE4093008B2885 /* Resources */,
+				1D7EC43C877910386A918BE3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jiujiu;
+			productName = Jiujiu;
+			productReference = 643348C421AE4093008B2885 /* Jiujiu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		643348DE21AE4095008B2885 /* JiujiuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 643348F621AE4095008B2885 /* Build configuration list for PBXNativeTarget "JiujiuTests" */;
+			buildPhases = (
+				5B45C17A534503FD883060F5 /* [CP] Check Pods Manifest.lock */,
+				643348DB21AE4095008B2885 /* Sources */,
+				643348DC21AE4095008B2885 /* Frameworks */,
+				643348DD21AE4095008B2885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				643348E121AE4095008B2885 /* PBXTargetDependency */,
+			);
+			name = JiujiuTests;
+			productName = JiujiuTests;
+			productReference = 643348DF21AE4095008B2885 /* JiujiuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		643348E921AE4095008B2885 /* JiujiuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 643348F921AE4095008B2885 /* Build configuration list for PBXNativeTarget "JiujiuUITests" */;
+			buildPhases = (
+				7BCEF468B0054994D3A2F2F3 /* [CP] Check Pods Manifest.lock */,
+				643348E621AE4095008B2885 /* Sources */,
+				643348E721AE4095008B2885 /* Frameworks */,
+				643348E821AE4095008B2885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				643348EC21AE4095008B2885 /* PBXTargetDependency */,
+			);
+			name = JiujiuUITests;
+			productName = JiujiuUITests;
+			productReference = 643348EA21AE4095008B2885 /* JiujiuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		643348BC21AE4093008B2885 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = GT;
+				TargetAttributes = {
+					643348C321AE4093008B2885 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					643348DE21AE4095008B2885 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 643348C321AE4093008B2885;
+					};
+					643348E921AE4095008B2885 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 643348C321AE4093008B2885;
+					};
+				};
+			};
+			buildConfigurationList = 643348BF21AE4093008B2885 /* Build configuration list for PBXProject "Jiujiu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 643348BB21AE4093008B2885;
+			productRefGroup = 643348C521AE4093008B2885 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				643348C321AE4093008B2885 /* Jiujiu */,
+				643348DE21AE4095008B2885 /* JiujiuTests */,
+				643348E921AE4095008B2885 /* JiujiuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		643348C221AE4093008B2885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6433492B21AE6D24008B2885 /* RankViewController.xib in Resources */,
+				6433493021AE6D38008B2885 /* MineViewController.xib in Resources */,
+				643348D721AE4095008B2885 /* LaunchScreen.storyboard in Resources */,
+				6433493521AE6D4B008B2885 /* LikeViewController.xib in Resources */,
+				6433492121AE6CE2008B2885 /* LabbyViewController.xib in Resources */,
+				643348D421AE4095008B2885 /* Assets.xcassets in Resources */,
+				6433492621AE6CF7008B2885 /* ActivityViewController.xib in Resources */,
+				643348CF21AE4093008B2885 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643348DD21AE4095008B2885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643348E821AE4095008B2885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D7EC43C877910386A918BE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Jiujiu/Pods-Jiujiu-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jiujiu/Pods-Jiujiu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B45C17A534503FD883060F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JiujiuTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BCEF468B0054994D3A2F2F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JiujiuUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9B9C35576AAF5CB5F1B250B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jiujiu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		643348C021AE4093008B2885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643348D221AE4093008B2885 /* Jiujiu.xcdatamodeld in Sources */,
+				6433490A21AE6B77008B2885 /* BaseViewController.m in Sources */,
+				6433493421AE6D4B008B2885 /* LikeViewController.m in Sources */,
+				6433494121AE7167008B2885 /* BaseTabBarViewController.m in Sources */,
+				6433494421AE71F2008B2885 /* MainViewController.m in Sources */,
+				643348CC21AE4093008B2885 /* ViewController.m in Sources */,
+				643348DA21AE4095008B2885 /* main.m in Sources */,
+				6433492021AE6CE2008B2885 /* LabbyViewController.m in Sources */,
+				6433490D21AE6B8E008B2885 /* BaseTableViewController.m in Sources */,
+				643348C921AE4093008B2885 /* AppDelegate.m in Sources */,
+				6433492F21AE6D38008B2885 /* MineViewController.m in Sources */,
+				6433492521AE6CF7008B2885 /* ActivityViewController.m in Sources */,
+				6433492A21AE6D24008B2885 /* RankViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643348DB21AE4095008B2885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643348E421AE4095008B2885 /* JiujiuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643348E621AE4095008B2885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643348EF21AE4095008B2885 /* JiujiuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		643348E121AE4095008B2885 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 643348C321AE4093008B2885 /* Jiujiu */;
+			targetProxy = 643348E021AE4095008B2885 /* PBXContainerItemProxy */;
+		};
+		643348EC21AE4095008B2885 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 643348C321AE4093008B2885 /* Jiujiu */;
+			targetProxy = 643348EB21AE4095008B2885 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		643348CD21AE4093008B2885 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				643348CE21AE4093008B2885 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		643348D521AE4095008B2885 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				643348D621AE4095008B2885 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		643348F121AE4095008B2885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		643348F221AE4095008B2885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		643348F421AE4095008B2885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C12D300D793DE39E940A28C /* Pods-Jiujiu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNXSLYT83S;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Jiujiu/Jiujiu.pch";
+				INFOPLIST_FILE = Jiujiu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qfe.Jiujiu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		643348F521AE4095008B2885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B358ED77CBA4DC4E95AD8A2B /* Pods-Jiujiu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNXSLYT83S;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Jiujiu/Jiujiu.pch";
+				INFOPLIST_FILE = Jiujiu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qfe.Jiujiu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		643348F721AE4095008B2885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8775B07A37A73E97358A94A /* Pods-JiujiuTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNXSLYT83S;
+				INFOPLIST_FILE = JiujiuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qfe.JiujiuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jiujiu.app/Jiujiu";
+			};
+			name = Debug;
+		};
+		643348F821AE4095008B2885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25896E6F52BD02C0F44B69BA /* Pods-JiujiuTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNXSLYT83S;
+				INFOPLIST_FILE = JiujiuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qfe.JiujiuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jiujiu.app/Jiujiu";
+			};
+			name = Release;
+		};
+		643348FA21AE4095008B2885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAE939167304F874C127704F /* Pods-JiujiuUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNXSLYT83S;
+				INFOPLIST_FILE = JiujiuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qfe.JiujiuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jiujiu;
+			};
+			name = Debug;
+		};
+		643348FB21AE4095008B2885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B1C0A757B9A80EE881A5F53 /* Pods-JiujiuUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNXSLYT83S;
+				INFOPLIST_FILE = JiujiuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qfe.JiujiuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jiujiu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		643348BF21AE4093008B2885 /* Build configuration list for PBXProject "Jiujiu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643348F121AE4095008B2885 /* Debug */,
+				643348F221AE4095008B2885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		643348F321AE4095008B2885 /* Build configuration list for PBXNativeTarget "Jiujiu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643348F421AE4095008B2885 /* Debug */,
+				643348F521AE4095008B2885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		643348F621AE4095008B2885 /* Build configuration list for PBXNativeTarget "JiujiuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643348F721AE4095008B2885 /* Debug */,
+				643348F821AE4095008B2885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		643348F921AE4095008B2885 /* Build configuration list for PBXNativeTarget "JiujiuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643348FA21AE4095008B2885 /* Debug */,
+				643348FB21AE4095008B2885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		643348D021AE4093008B2885 /* Jiujiu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				643348D121AE4093008B2885 /* Jiujiu.xcdatamodel */,
+			);
+			currentVersion = 643348D121AE4093008B2885 /* Jiujiu.xcdatamodel */;
+			path = Jiujiu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 643348BC21AE4093008B2885 /* Project object */;
+}

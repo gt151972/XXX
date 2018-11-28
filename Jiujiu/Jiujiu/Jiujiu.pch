@@ -1,0 +1,17 @@
+//
+//  Jiujiu.pch
+//  Jiujiu
+//
+//  Created by 高婷婷 on 2018/11/28.
+//  Copyright © 2018 GT. All rights reserved.
+//
+
+#ifndef Jiujiu_pch
+#define Jiujiu_pch
+
+#endif /* Jiujiu_pch */
+
+#import "Dedine/URLMacros.h"
+#import "Dedine/UtilsMacros.h"
+#import "Dedine/FontAndColorMacros.h"
+#import "Dedine/ThirdMacros.h"
