@@ -1,22 +1,23 @@
 //
-//  BaseTableViewController.m
+//  HistoryViewController.m
 //  Jiujiu
 //
 //  Created by 高婷婷 on 2018/11/28.
 //  Copyright © 2018 GT. All rights reserved.
 //
 
-#import "BaseTableViewController.h"
+#import "HistoryViewController.h"
 
-@interface BaseTableViewController ()
-
+@interface HistoryViewController ()
+@property (nonatomic, strong) NSArray *arrData;
+@property (nonatomic, strong) UITableView *tableView;
 @end
 
-@implementation BaseTableViewController
+@implementation HistoryViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = RGB(239, 239, 239);
+    // Do any additional setup after loading the view from its nib.
 }
 
 /*
