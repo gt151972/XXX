@@ -7,11 +7,14 @@
 //
 
 #import "BaseViewController.h"
-
+#import "TopTitleView.h"
+#import "SearchView.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LabbyViewController : BaseViewController
-
+@property (nonatomic,strong)TopTitleView *titleView;
+@property (nonatomic, strong)SearchView *searchView;
+@property (nonatomic,strong)UIScrollView *homeScrollView;
 @end
 
 NS_ASSUME_NONNULL_END

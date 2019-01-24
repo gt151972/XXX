@@ -45,7 +45,7 @@
                                 <constraint firstAttribute="height" constant="17" id="sOn-ol-FSB"/>
                             </constraints>
                         </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xH2-Ze-PUX">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_head" translatesAutoresizingMaskIntoConstraints="NO" id="xH2-Ze-PUX">
                             <rect key="frame" x="138.5" y="34.5" width="98" height="98"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="98" id="8mx-zG-Rce"/>
@@ -267,6 +267,7 @@
         </label>
     </objects>
     <resources>
+        <image name="login_head" width="98" height="98.5"/>
         <image name="login_head_bg" width="320" height="195.5"/>
         <image name="login_icon_pwd" width="13" height="15"/>
         <image name="login_icon_username" width="14.5" height="14"/>

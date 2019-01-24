@@ -1,0 +1,6 @@
+module Pods_Jiujiu {
+  umbrella header "Pods-Jiujiu-umbrella.h"
+
+  export *
+  module * { export * }
+}

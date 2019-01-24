@@ -12,6 +12,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MineViewController">
             <connections>
+                <outlet property="btnHead" destination="PD7-49-vmu" id="rcO-Vp-yn6"/>
+                <outlet property="tableView" destination="Xs8-Pu-lcP" id="1IE-VB-UOF"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -33,20 +35,53 @@
                         <constraint firstAttribute="width" constant="88" id="w4I-2X-Qcn"/>
                     </constraints>
                     <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="btnHeadClicked:" destination="-1" eventType="touchUpInside" id="80V-kI-50J"/>
+                    </connections>
                 </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Lable" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tlr-mm-uVX">
+                    <rect key="frame" x="166" y="153" width="42" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qgP-R4-95d">
+                    <rect key="frame" x="331" y="20" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="cCu-rC-3rb"/>
+                        <constraint firstAttribute="height" constant="44" id="fBn-mc-RBQ"/>
+                    </constraints>
+                    <state key="normal" image="mine_head_switch_account"/>
+                    <connections>
+                        <action selector="btnCutAccountClicked:" destination="-1" eventType="touchUpInside" id="8db-nx-99r"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Xs8-Pu-lcP">
+                    <rect key="frame" x="0.0" y="179" width="375" height="488"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="PD7-49-vmu" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="38" id="DO5-iz-vCF"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="qgP-R4-95d" secondAttribute="trailing" id="G1w-o0-oRs"/>
+                <constraint firstItem="Xs8-Pu-lcP" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="IEg-0X-hhd"/>
+                <constraint firstItem="Xs8-Pu-lcP" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="KEQ-wc-GtI"/>
+                <constraint firstItem="Xs8-Pu-lcP" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="NAS-yR-YrS"/>
                 <constraint firstItem="Od5-fv-n3J" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="YgG-cT-Jd0"/>
+                <constraint firstItem="Xs8-Pu-lcP" firstAttribute="top" secondItem="tlr-mm-uVX" secondAttribute="bottom" constant="8" id="i8l-La-cta"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="Od5-fv-n3J" secondAttribute="trailing" id="kSI-Ue-nKt"/>
+                <constraint firstItem="qgP-R4-95d" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="png-tO-xFM"/>
+                <constraint firstItem="tlr-mm-uVX" firstAttribute="top" secondItem="PD7-49-vmu" secondAttribute="bottom" constant="7" id="uND-t4-QKh"/>
                 <constraint firstItem="PD7-49-vmu" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="vhT-4H-sQ9"/>
                 <constraint firstItem="Od5-fv-n3J" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="z0p-ID-1bY"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="133.59999999999999" y="154.27286356821591"/>
         </view>
     </objects>
     <resources>
         <image name="login_head_bg" width="320" height="195.5"/>
+        <image name="mine_head_switch_account" width="15.5" height="15.5"/>
     </resources>
 </document>

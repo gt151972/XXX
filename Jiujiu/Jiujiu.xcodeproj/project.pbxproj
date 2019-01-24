@@ -10,6 +10,15 @@
 		572F0C359439AA75ED03C811 /* libPods-Jiujiu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAA28E1557796D292C08E80 /* libPods-Jiujiu.a */; };
 		5BA3EE567B79358562382AC0 /* libPods-JiujiuTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5EF4596AE410F36028A904A /* libPods-JiujiuTests.a */; };
 		63FF5E77602A505EE0479797 /* libPods-JiujiuUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 674949B40B8382317EF27306 /* libPods-JiujiuUITests.a */; };
+		6409DC7B21B8EEA8003254B2 /* GTDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6409DC7A21B8EEA8003254B2 /* GTDataRequest.m */; };
+		640A4DD421C79F3E00EB3EAA /* MyUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 640A4DD321C79F3E00EB3EAA /* MyUserModel.m */; };
+		640D149B21C89404006CD5ED /* TopTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 640D149A21C89404006CD5ED /* TopTitleView.m */; };
+		640D14A321C898DE006CD5ED /* SearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 640D14A221C898DE006CD5ED /* SearchView.m */; };
+		640D14AB21C89D32006CD5ED /* MyControlTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 640D14AA21C89D32006CD5ED /* MyControlTool.m */; };
+		640D14AF21C8C506006CD5ED /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 640D14AD21C8C506006CD5ED /* FirstViewController.m */; };
+		640D14B021C8C506006CD5ED /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 640D14AE21C8C506006CD5ED /* FirstViewController.xib */; };
+		640D14B321C8EB84006CD5ED /* GTTCPSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 640D14B221C8EB84006CD5ED /* GTTCPSocket.m */; };
+		640D14B621D0755B006CD5ED /* DPK_NW_Application.m in Sources */ = {isa = PBXBuildFile; fileRef = 640D14B521D0755B006CD5ED /* DPK_NW_Application.m */; };
 		643348C921AE4093008B2885 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 643348C821AE4093008B2885 /* AppDelegate.m */; };
 		643348CC21AE4093008B2885 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 643348CB21AE4093008B2885 /* ViewController.m */; };
 		643348CF21AE4093008B2885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 643348CD21AE4093008B2885 /* Main.storyboard */; };
@@ -81,6 +90,27 @@
 /* Begin PBXFileReference section */
 		25896E6F52BD02C0F44B69BA /* Pods-JiujiuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiujiuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JiujiuTests/Pods-JiujiuTests.release.xcconfig"; sourceTree = "<group>"; };
 		5C12D300D793DE39E940A28C /* Pods-Jiujiu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jiujiu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jiujiu/Pods-Jiujiu.debug.xcconfig"; sourceTree = "<group>"; };
+		6409DC7921B8EEA8003254B2 /* GTDataRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTDataRequest.h; sourceTree = "<group>"; };
+		6409DC7A21B8EEA8003254B2 /* GTDataRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTDataRequest.m; sourceTree = "<group>"; };
+		640A4DCB21C348A000EB3EAA /* SocketMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketMacros.h; sourceTree = "<group>"; };
+		640A4DCC21C348DE00EB3EAA /* BaseSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseSocket.h; sourceTree = "<group>"; };
+		640A4DCD21C3498600EB3EAA /* yc_define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yc_define.h; sourceTree = "<group>"; };
+		640A4DCE21C3498600EB3EAA /* yc_dataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yc_dataType.h; sourceTree = "<group>"; };
+		640A4DD221C79F3E00EB3EAA /* MyUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUserModel.h; sourceTree = "<group>"; };
+		640A4DD321C79F3E00EB3EAA /* MyUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUserModel.m; sourceTree = "<group>"; };
+		640D149921C89404006CD5ED /* TopTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopTitleView.h; sourceTree = "<group>"; };
+		640D149A21C89404006CD5ED /* TopTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopTitleView.m; sourceTree = "<group>"; };
+		640D14A121C898DE006CD5ED /* SearchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchView.h; sourceTree = "<group>"; };
+		640D14A221C898DE006CD5ED /* SearchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchView.m; sourceTree = "<group>"; };
+		640D14A921C89D31006CD5ED /* MyControlTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyControlTool.h; sourceTree = "<group>"; };
+		640D14AA21C89D32006CD5ED /* MyControlTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyControlTool.m; sourceTree = "<group>"; };
+		640D14AC21C8C506006CD5ED /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		640D14AD21C8C506006CD5ED /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		640D14AE21C8C506006CD5ED /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		640D14B121C8EB84006CD5ED /* GTTCPSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTTCPSocket.h; sourceTree = "<group>"; };
+		640D14B221C8EB84006CD5ED /* GTTCPSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTTCPSocket.m; sourceTree = "<group>"; };
+		640D14B421D0755B006CD5ED /* DPK_NW_Application.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPK_NW_Application.h; sourceTree = "<group>"; };
+		640D14B521D0755B006CD5ED /* DPK_NW_Application.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPK_NW_Application.m; sourceTree = "<group>"; };
 		643348C421AE4093008B2885 /* Jiujiu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jiujiu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		643348C721AE4093008B2885 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		643348C821AE4093008B2885 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -343,15 +373,25 @@
 		6433490121AE46D7008B2885 /* Command */ = {
 			isa = PBXGroup;
 			children = (
+				640A4DCB21C348A000EB3EAA /* SocketMacros.h */,
+				640A4DCC21C348DE00EB3EAA /* BaseSocket.h */,
+				640A4DCE21C3498600EB3EAA /* yc_dataType.h */,
+				640A4DCD21C3498600EB3EAA /* yc_define.h */,
 				6433498021AF88F9008B2885 /* Crash.h */,
 				6433497F21AF88F9008B2885 /* Crash.m */,
 				6433495221AF8833008B2885 /* LevelGrade.h */,
 				6433495321AF8833008B2885 /* LevelGrade.m */,
 				6433495521AF884E008B2885 /* GTAlertTool.h */,
 				6433495621AF884E008B2885 /* GTAlertTool.m */,
+				6409DC7921B8EEA8003254B2 /* GTDataRequest.h */,
+				6409DC7A21B8EEA8003254B2 /* GTDataRequest.m */,
 				6433495821AF8876008B2885 /* NoNetViewController.h */,
 				6433495A21AF8876008B2885 /* NoNetViewController.m */,
 				6433495921AF8876008B2885 /* NoNetViewController.xib */,
+				640D14B121C8EB84006CD5ED /* GTTCPSocket.h */,
+				640D14B221C8EB84006CD5ED /* GTTCPSocket.m */,
+				640D14B421D0755B006CD5ED /* DPK_NW_Application.h */,
+				640D14B521D0755B006CD5ED /* DPK_NW_Application.m */,
 			);
 			path = Command;
 			sourceTree = "<group>";
@@ -374,6 +414,8 @@
 		6433490321AE46D7008B2885 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				640A4DD221C79F3E00EB3EAA /* MyUserModel.h */,
+				640A4DD321C79F3E00EB3EAA /* MyUserModel.m */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -422,6 +464,12 @@
 		6433490E21AE6BE3008B2885 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				640D149921C89404006CD5ED /* TopTitleView.h */,
+				640D149A21C89404006CD5ED /* TopTitleView.m */,
+				640D14A121C898DE006CD5ED /* SearchView.h */,
+				640D14A221C898DE006CD5ED /* SearchView.m */,
+				640D14A921C89D31006CD5ED /* MyControlTool.h */,
+				640D14AA21C89D32006CD5ED /* MyControlTool.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -435,6 +483,9 @@
 				6433494A21AE8F01008B2885 /* HistoryViewController.h */,
 				6433494B21AE8F01008B2885 /* HistoryViewController.m */,
 				6433494C21AE8F01008B2885 /* HistoryViewController.xib */,
+				640D14AC21C8C506006CD5ED /* FirstViewController.h */,
+				640D14AD21C8C506006CD5ED /* FirstViewController.m */,
+				640D14AE21C8C506006CD5ED /* FirstViewController.xib */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -778,6 +829,7 @@
 				6433493021AE6D38008B2885 /* MineViewController.xib in Resources */,
 				6433499A21AFC5DE008B2885 /* LoginViewController.xib in Resources */,
 				643348D721AE4095008B2885 /* LaunchScreen.storyboard in Resources */,
+				640D14B021C8C506006CD5ED /* FirstViewController.xib in Resources */,
 				6433493521AE6D4B008B2885 /* LikeViewController.xib in Resources */,
 				6433492121AE6CE2008B2885 /* LabbyViewController.xib in Resources */,
 				6433494E21AE8F01008B2885 /* HistoryViewController.xib in Resources */,
@@ -889,9 +941,11 @@
 				643348D221AE4093008B2885 /* Jiujiu.xcdatamodeld in Sources */,
 				6433490A21AE6B77008B2885 /* BaseViewController.m in Sources */,
 				6433497621AF8897008B2885 /* NSMutableAttributedString+TY.m in Sources */,
+				640D14B621D0755B006CD5ED /* DPK_NW_Application.m in Sources */,
 				6433495421AF8833008B2885 /* LevelGrade.m in Sources */,
 				6433497921AF8897008B2885 /* TYAttributedLabel.m in Sources */,
 				6433493421AE6D4B008B2885 /* LikeViewController.m in Sources */,
+				640D14A321C898DE006CD5ED /* SearchView.m in Sources */,
 				6433498121AF88F9008B2885 /* Crash.m in Sources */,
 				6433494121AE7167008B2885 /* BaseTabBarViewController.m in Sources */,
 				6433497B21AF8897008B2885 /* TYTextContainer.m in Sources */,
@@ -903,6 +957,7 @@
 				6433497221AF8897008B2885 /* TYLinkTextStorage.m in Sources */,
 				6433497721AF8897008B2885 /* TYImageCache.m in Sources */,
 				643348DA21AE4095008B2885 /* main.m in Sources */,
+				6409DC7B21B8EEA8003254B2 /* GTDataRequest.m in Sources */,
 				6433499021AF93AE008B2885 /* MMAlertView.m in Sources */,
 				6433499321AF93AE008B2885 /* MMPopupWindow.m in Sources */,
 				6433499121AF93AE008B2885 /* MMSheetView.m in Sources */,
@@ -912,10 +967,15 @@
 				6433499221AF93AE008B2885 /* MMPopupCategory.m in Sources */,
 				6433497821AF8897008B2885 /* TYTextStorage.m in Sources */,
 				643348C921AE4093008B2885 /* AppDelegate.m in Sources */,
+				640D14AB21C89D32006CD5ED /* MyControlTool.m in Sources */,
+				640D14B321C8EB84006CD5ED /* GTTCPSocket.m in Sources */,
+				640D14AF21C8C506006CD5ED /* FirstViewController.m in Sources */,
 				6433492F21AE6D38008B2885 /* MineViewController.m in Sources */,
+				640A4DD421C79F3E00EB3EAA /* MyUserModel.m in Sources */,
 				6433497421AF8897008B2885 /* TYViewStorage.m in Sources */,
 				6433492521AE6CF7008B2885 /* ActivityViewController.m in Sources */,
 				6433499421AF93AE008B2885 /* MMPopupView.m in Sources */,
+				640D149B21C89404006CD5ED /* TopTitleView.m in Sources */,
 				6433499921AFC5DE008B2885 /* LoginViewController.m in Sources */,
 				6433499521AF93AE008B2885 /* MMPopupItem.m in Sources */,
 				6433497321AF8897008B2885 /* TYDrawStorage.m in Sources */,
